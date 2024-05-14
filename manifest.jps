@@ -204,7 +204,7 @@ actions:
         data:
           project: ${settings.project:default}
           projectScope: ${settings.projectScope:production}
-          isRequired: true
+          isRequired: false
 
   setProtocol:
     - script: |
